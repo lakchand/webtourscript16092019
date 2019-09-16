@@ -1,0 +1,187 @@
+[API Trapper      ( 270: b38)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (39b0:19c4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 468: 7e0)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 468:24a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 468:24a4)] Load Network Traffic Analyzers:
+[Network Analyzer ( 468:24a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 468:24a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 468:24a4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 468:24a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 468:24a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 468:24a4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 468:24a4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 468:24a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 468:2758)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:2cd0)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:2cd0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 468:2758)] "GET /WebTours/"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/header.html"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( 468:2758)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer ( 468:2758)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/home.html"   
+[Network Analyzer ( 468:2758)]   (Sid:  2) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /favicon.ico"   
+[Network Analyzer ( 468:2758)]   (Sid:  1) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer ( 468:2758)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:36a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 468:2758)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( 468:2758)]   (Sid:  3) Client -> Server @ : 572 bytes (Service=HTTP)
+[Network Analyzer ( 468:36a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 468:2758)]   (Sid:  3) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( 468:2758)]   (Sid:  3) Client -> Server @ : 480 bytes (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( 468:2758)]   (Sid:  4) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  3) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  3) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( 468:36a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:36a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 468:2cd0)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Web Request      ( 468:2758)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  5) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer ( 468:2cd0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  3) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  4) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 468:2758)]   (Sid:  5) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  6) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (39b0:3718)] ------------------------------------------------------------------------------------------
+[Network Analyzer (39b0:3718)] Load Network Traffic Analyzers:
+[Network Analyzer (39b0:3718)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (39b0:3718)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (39b0:3718)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (39b0:3718)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (39b0:3718)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (39b0:3718)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (39b0:3718)]     Analyzer Module: local_server (value=)
+[Network Analyzer (39b0:3718)] ------------------------------------------------------------------------------------------
+[Network Analyzer (39b0:3a5c)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Web Request      ( 468:2758)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( 468:2758)]   (Sid:  4) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( 468:2758)]   (Sid:  4) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( 468:2758)]   (Sid:  6) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  4) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/home.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  5) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 281 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  6) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (39b0:3718)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer (39b0:3718)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 468:2758)] "GET /WebTours/classes/"   
+[Network Analyzer ( 468:2758)]   (Sid:  6) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (39b0:1f80)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 468:2758)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( 468:2758)]   (Sid:  4) Connection Terminated (by Server)
+[Web Request      ( 468:2758)] "GET /WebTours/classes/"   
+[Network Analyzer ( 468:2758)]   (Sid:  6) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (39b0:1f80)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 468:27cc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (39b0:3a5c)] "GET /ie11blocklist/1401746408/versionlist.xml"   
+[Network Analyzer (39b0:3a5c)]   (Sid:  1) Client -> Server @ : 433 bytes (SSL)(Service=HTTP)
+[Network Analyzer (39b0:3a5c)]   (Sid:  1) Server -> Client : 365 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 468:27cc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      ( 468:2758)] "GET /ie11blocklist/1401746408/versionlist.xml"   
+[Network Analyzer ( 468:2758)]   (Sid:  8) Client -> Server @ : 433 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  8) Server -> Client : 365 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:2758)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( 468:2758)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 468:2758)]   (Sid:  9) Client -> Server @ : 829 bytes (Service=HTTP)
+[Network Analyzer ( 468:2cd0)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:2cd0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 2709 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 468:2758)]   (Sid:  9) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 3237 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 468:2758)]   (Sid:  9) Client -> Server @ : 886 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 2848 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer ( 468:2758)]   (Sid:  9) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( 468:24a4)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:24a4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( 468:2758)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( 468:2758)]   (Sid: 11) Client -> Server @ : 584 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2cd0)] Address lookup for DESKTOP-EF7G27F = 192.168.0.100
+[Network Analyzer ( 468:2cd0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      ( 468:2758)] "GET /WebTours/classes/"   
+[Network Analyzer ( 468:2758)]   (Sid: 11) Client -> Server @ : 461 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/classes/"   
+[Network Analyzer ( 468:2758)]   (Sid: 11) Client -> Server @ : 461 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( 468:2758)]   (Sid: 11) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 468:2758)]   (Sid: 11) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( 468:2758)] "GET /WebTours/home.html"   
+[Network Analyzer ( 468:2758)]   (Sid: 12) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 12) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer ( 468:2758)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
